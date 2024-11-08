@@ -10,4 +10,5 @@ body{
 }
 h1 {
     font-size: 3.5rem;
+    color:hsl(0, 0%, 20%)
 }
