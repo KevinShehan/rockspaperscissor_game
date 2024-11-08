@@ -15,3 +15,16 @@ h1 {
 .choices {
     margin-bottom: 30px;
 }
+.choices button {
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: rgb(255, 232, 232);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choices button:hover{
+    background-color: hsl(0, 96%, 80%);
+}
+#playerDisplay
