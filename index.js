@@ -27,6 +27,18 @@ function playGame(playChoices) {
     playerDisplay.textContent = "Player chose: " + playChoices;
     computerDisplay.textContent = "Computer chose: " + computerChoice;
     resultDisplay.textContent = result;
+
+    resultDisplay.classList.remove("greenText","redText");
+
+    switch(result){
+        case 'Player wins!':
+           resultDisplay.classList.add("greenText");
+            break;
+        case 'Computer wins!':
+            resultDisplay.classList.add("redText");
+            break;
+       
+    }
 }
 
 // playGame(choices)
