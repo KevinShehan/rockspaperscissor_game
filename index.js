@@ -1,7 +1,7 @@
 const choices = ['rock', 'paper', 'scissors'];
-const playerDisplay = getElementById('playerDisplay');
-const computerDisplay = getElementById('computerDisplay');
-const resultDisplay = getElementById('resultDisplay');
+const playerDisplay = document.getElementById('playerDisplay');
+const computerDisplay = document.getElementById('computerDisplay');
+const resultDisplay = document.getElementById('resultDisplay');
 
 
 function playGame(playChoices) {
@@ -29,4 +29,4 @@ function playGame(playChoices) {
     resultDisplay.textContent = result;
 }
 
-playGame(choices)
+// playGame(choices)
